@@ -7,7 +7,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-
 }
 
 .container{
@@ -175,7 +174,6 @@ img {
     padding: 10px 0px;
 }
 
-
 /* about */
 
 .about__area {
@@ -273,5 +271,9 @@ img {
     font-weight: 700;
     margin-bottom: 20px;
     color: #000;
-    font-family: "Open Sans", sans-serif;
+}
+
+.footer__area__item li {
+    list-style: none;
+    line-height: 30px;
 }
