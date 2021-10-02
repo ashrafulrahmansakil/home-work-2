@@ -19,30 +19,37 @@
 <body>
 
         <!-- header area start-->
-    <header>
         <div class="header__area container pb pt">
-            <div class="header__item">
-                <div class="logo"><img src="./assets/logo.webp" alt="logo"></div>
-                <div class="nav__bar">
-                    
-                    <!-- toggle -->
-                <input type="checkbox" value="check" class="checkbtn">
-                    <label for="check" id="check">
-                        <i class="fa fa-bars"></i>
+                <div class="header__top">
+                    <div class="nav__logo"><img src="./assets/logo.webp" alt="logo"></div>
+                    <div class="nav__menu">
+                        <!-- bars -->
+
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                        <i class="fas fa-bars"></i>
                     </label>
+                        <!-- bars end-->
+                        <ul>
+                            <li><a href="">HOME</a></li>
+                            <li><a href="">Dropdown<i class="fas fa-arrow-down"></i></a> 
+                                <ul>
+                                    <li><a href="">Blog</a></li>
+                                    <li><a href="">Single-Blog</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">Pages <i class="fas fa-arrow-down"></i></a><ul>
+                                <li><a href="">Elements</a></li>
+                                <li><a href="">About</a></li>
+                            </ul>
+                        </li>
+                            <li><a href="">Doctors</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
 
-
-                    <ul>
-                        <li><a href="#">home</a></li>
-                        <li><a href="#">dropdown</a></li>
-                        <li><a href="#">about</a></li>
-                        <li><a href="#">servics</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">contact Us</a></li>
-                    </ul>
-                    
-                </div>
-                <input type="button" value="download now">
+                    </div>
+            <div class="nav__button"><input type="button" value="Make an Appointment"></div>
             </div>
         </div>
 

@@ -98,35 +98,74 @@ button:hover{
 }
 
 /* header area start */
-.header__item {
+.header__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    clear: both;
+ }
+
+/* toggle */
+.checkbtn{
+    font-size: 30px;
+    color: #000;
+    display: none;
 }
 
-.logo img {
-    width: 100%;
+#check {
+    display: none;
 }
+
 
 /* nav */
-.header__item {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.nav__logo img {
+    width: 100%;
 }
   
-.nav__bar ul li a {
-    text-decoration: none;
-    color: #081158;
-    display: block;
-    text-transform: capitalize;
-}
-  
-.nav__bar ul li {
+.nav__menu ul li {
     display: inline-block;
-    padding: 0px 25px;
+    list-style: none;
+    padding: 0px 20px;
+    position: relative;
+}
+  
+.nav__menu ul li a {
+    color: #5c5c5c;
+    text-decoration: none;
+    font-size: 15px;
 }
 
+.nav__menu ul li a:hover{
+    color: #081158;
+}
+
+/* drop */
+.nav__menu ul ul{
+    position:absolute;
+    display: none;
+    background: rgb(192, 191, 191);
+    border-radius: 5px;
+  }
+  
+  .nav__menu ul li:hover>ul{
+    display: block;;
+  }
+  
+  .nav__menu ul ul li{
+    float: none;
+    display: list-item;
+    position:relative;
+  }
+  
+  /* ==== perfect=====* */
+  
+  .nav-menu ul ul ul {
+    top: 0%;
+    left: 100%;
+    background: rgb(146, 146, 146);
+  }
+
+  
 /* slider */
 
 .slide__content {
