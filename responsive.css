@@ -1,0 +1,38 @@
+@media screen and (max-width:768px) {
+    
+.slide__content {
+    display: block;
+}
+
+.feature__heading__dec {
+    padding: 0px;
+  }
+      
+.about__content {
+    display: block;
+}
+      
+.testimonial__box {
+    display: block;
+}
+
+.services__area__container {
+    display: block;
+  }
+  
+  .services__area__box {
+    margin: 15px 0px;
+  }
+  
+  .testimonial__box__container {
+    margin: 10px 0px;
+  }
+
+
+
+
+
+  
+
+
+}

@@ -190,6 +190,9 @@ img {
 }
 
   /* services */
+.services__area {
+    padding: 50px 0px;
+}
 
 .services__heading {
   text-align: center;
@@ -224,7 +227,6 @@ img {
     margin: 5px 100px;
 }
 
-
 /* testimonials */
 .testimonials__area {
     background-color: #f8f9fa;
@@ -236,7 +238,31 @@ img {
 }
 
 .testimonials__heading__dec {
-    padding: 0px 116px;
+    padding: 30px 116px;
+}
+
+.testimonial__box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.testimonial__name__title {
+    padding: 0px 70px;}
+  
+.testimonial__box__container {
+    border: 1px solid #b5b5b5;
+    padding: 40px 25px;
+    border-radius: 10px;
+}
+  
+.testimonial__author__img {
+    float: left;
+    padding: 10px 0px;
+}
+.testimonial__author__img img {
+    width: 50px;
+    border-radius: 50%;
 }
 
 /*footer area  */
